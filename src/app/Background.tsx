@@ -132,8 +132,8 @@ export function GridBackgroundDemo() {
         <div className="py-4 bg-black text-white text-center text-sm cursor-pointer absolute">
           Made with <span className="text-red-600">♥</span> by{" "}
           <span
-            className="cursor-pointer hover:text-red-700 underline"
-            onClick={() => console.log("hello")}
+            className="cursor-pointer underline"
+            onClick={() => window.open("https://github.com/devkumar4")}
           >
             Dev Kumar
           </span>
